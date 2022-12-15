@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #aaaaaa;
+    font-size: 30px;
+}
+
+main {
+    background-color: rgb(143, 142, 141);
+    opacity: 0.55;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 10px;
+    
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#crypto {
+    display: flex;
+    flex-direction: column;
+}
+
+#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+#crypto-top  >p{
+    padding: 0;
+    margin: 0;
+}
+
+#crypto-top img{
+    margin-right: 5px;
+}
+
+
+#time {
+    align-self: center;
+}
+
+#crypto div {
+    align-self: flex-end;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+}
+
+#weather-top {
+    display: flex;
+    align-items: center;
+
+}
+
+
+#temp {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    margin-left: -15px;
+}
+
+#location {
+    align-self: flex-end;
+
+    margin-top: -20px;
+    font-weight: bold;
+
+}
